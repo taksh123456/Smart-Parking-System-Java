@@ -1,0 +1,61 @@
+SMART PARKING SYSTEM - TEST CASES
+
+----------------------------------
+Test Case 1:
+Input:
+Zone: Office
+Time: 10
+Event: No
+
+Expected Output:
+Prediction = Low
+Parking = Not Available
+
+Actual Output:
+Prediction = Low
+Parking = Not Available
+
+----------------------------------
+Test Case 2:
+Input:
+Zone: Market
+Time: 18
+Event: No
+
+Expected Output:
+Prediction = Low
+Parking = Not Available
+
+Actual Output:
+Prediction = Low
+Parking = Not Available
+
+----------------------------------
+Test Case 3:
+Input:
+Zone: Residential
+Time: 23
+Event: No
+
+Expected Output:
+Prediction = High
+Parking = Available
+
+Actual Output:
+Prediction = High
+Parking = Available
+
+----------------------------------
+Test Case 4:
+Input:
+Zone: Office
+Time: 20
+Event: Yes
+
+Expected Output:
+Prediction = Low
+Parking = Not Available
+
+Actual Output:
+Prediction = Low
+Parking = Not Available
