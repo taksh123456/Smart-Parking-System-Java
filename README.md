@@ -19,4 +19,4 @@ This project predicts parking availability based on zone, time, and event.
 Run Main.java in any Java compiler.
 
 ## Author
-Your Name
+Taksh Paraskumar Modi
